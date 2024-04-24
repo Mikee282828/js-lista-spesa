@@ -4,7 +4,8 @@ const lista = [
     "olio",
     "pasta"
 ];
-let i = 0;
-while(i<lista.length){
+
+for (let i = 0; i < lista.length; i++) {
+    console.log(lista[i])
 }
 
