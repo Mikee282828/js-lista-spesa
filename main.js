@@ -11,9 +11,7 @@ const classeLista = document.querySelector("ol");
 // }
 let i = 0;
 while( i < lista.length) {
-    const element = document.createElement("li");
-    element.append(lista[i]);
-    classeLista.append(element);
+    classeLista.innerHTML +=`<li>${lista[i]}</li>`;
     i++;
 }
 
